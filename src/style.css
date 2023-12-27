@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primary-color: #121212;
+  --secondary-color: #0891cc;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 6px;
+  background-color: var(--primary-color);
+  color: white;
+  height: 98vh;
+  width: 25vw;
+  margin: 0.5rem;
+  border: 1px solid rgba(143, 143, 143, 0.205);
+}
+
+.navigation img {
+  width: 12rem;
+}
+
+.navigation ul {
+  margin: 5rem 0rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.navigation ul li {
+  text-align: center;
+  width: 24vw;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: var(--secondary-color);
+  border-radius: 24px;
+}
+
+.navigation ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-area {
+  border: 1px solid rgba(143, 143, 143, 0.205);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 6px;
+  background-color: var(--primary-color);
+  color: white;
+  height: 98vh;
+  width: 75vw;
+  margin: 0.5rem;
+}
+
+.main-area h1 {
+  margin: 5.3rem;
+  color: var(--secondary-color);
+}
+
+.main-area h2 {
+  padding: 2rem;
+  margin: -2rem;
+}
+
+.main-area ul {
+  border-radius: 24px;
+  text-align: center;
+  width: 60vw;
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.main-area li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-size: 1.4rem;
+  height: 8vh;
+}
+
+.create-order {
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  text-align: center;
+  width: 20vw;
+  background-color: #000000;
+  border: 1px solid rgba(143, 143, 143, 0.685);
+  margin: 3rem;
+  font-size: 1.4rem;
+  color: white;
+  cursor: pointer;
+}
