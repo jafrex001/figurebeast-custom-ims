@@ -78,35 +78,40 @@
   margin: -2rem;
 }
 
-.main-area ul {
-  border-radius: 24px;
-  text-align: center;
+.past-orders-list {
   width: 60vw;
-  background-color: var(--secondary-color);
   color: white;
 }
 
-.main-area li {
+.past-orders-list li {
+  text-align: center;
+  border-radius: 1.25rem;
+  margin: 1rem;
+  background-color: var(--secondary-color);
   display: flex;
   align-items: center;
   justify-content: center;
   list-style: none;
   font-size: 1.4rem;
-  height: 8vh;
+  height: 5vh;
 }
 
-.create-order {
+.create-order-button {
   border-radius: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 8vh;
   text-align: center;
-  width: 20vw;
-  background-color: #000000;
-  border: 1px solid rgba(143, 143, 143, 0.685);
+  width: 60vw;
+  background-color: #252525;
+  border: 2px dashed rgb(8, 145, 204);
   margin: 3rem;
   font-size: 1.4rem;
   color: white;
   cursor: pointer;
+}
+
+.create-order-button:hover {
+  background-color: black;
 }
