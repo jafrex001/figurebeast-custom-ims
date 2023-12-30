@@ -14,14 +14,9 @@
   </head>
   <body>
     <div class="app-container">
-      <div class="navigation">
-        <img src="../img/Figure-Beast.svg" alt="figurebeast-logo" />
-        <ul>
-          <a href="/src/index.html"><li>Dashboard</li></a>
-          <a href="/src/past-orders.html"><li>Past Orders</li></a>
-          <a href="/src/create-order.html"><li>Create Order</li></a>
-        </ul>
-      </div>
+      <?php
+      include('header.php');
+      ?>
       <div class="main-area">
         <h1>
           Total Orders:
