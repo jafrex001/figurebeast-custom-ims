@@ -35,7 +35,7 @@
 }
 
 .navigation ul {
-  margin: 5rem 0rem;
+  margin: 3.6rem 0rem;
   list-style: none;
   font-size: 1.5rem;
 }
@@ -116,8 +116,7 @@
   background-color: black;
 }
 
-
-.form-submit-button{
+.form-submit-button {
   border-radius: 24px;
   display: flex;
   align-items: center;
@@ -133,16 +132,16 @@
   cursor: pointer;
 }
 
-.form-submit-button:hover{
+.form-submit-button:hover {
   background-color: black;
 }
 
-form{
+form {
   display: none;
   flex-direction: column;
 }
 
-form input{
+form input {
   border-radius: 24px;
   display: flex;
   align-items: center;
@@ -164,20 +163,64 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input[type=number] {
+input[type="number"] {
   appearance: textfield;
   -moz-appearance: textfield;
 }
 
-#success-message, #failure-message{
+#success-message,
+#failure-message {
   font-size: 1.4rem;
   display: none;
 }
 
-#success-message{
+#success-message {
   color: rgb(0, 218, 0);
 }
 
-#failure-message{
+#failure-message {
   color: rgb(236, 0, 0);
+}
+
+table {
+  width: 60vw;
+  text-align: center;
+}
+
+table th {
+  font-size: 1.5rem;
+}
+
+table td {
+  font-size: 1.2rem;
+}
+
+table th,
+table td {
+  padding: 0.4rem;
+}
+
+tr:hover {
+  background-color: black;
+}
+
+.page-link-container {
+  display: flex;
+}
+
+.page-link {
+  padding: 0 1rem;
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #0891cc;
+}
+
+p {
+  padding: 0 1rem;
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  color: #ffffff;
 }
