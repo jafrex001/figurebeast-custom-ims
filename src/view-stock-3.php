@@ -14,22 +14,16 @@
   </head>
   <body>
     <div class="app-container">
-      <div class="navigation">
-        <img src="../img/Figure-Beast.svg" alt="figurebeast-logo" />
-        <ul>
-          <a href="/src/index.html"><li>Dashboard</li></a>
-          <a href="/src/past-orders.html"><li>Past Orders</li></a>
-          <a href="/src/create-order.html"><li>Create Order</li></a>
-          <a href="/src/view-stock.html"><li>View Current Stock</li></a>
-        </ul>
-      </div>
+    <?php
+      include('header.php');
+      ?>
       <div class="main-area">
         <h1>Current Stock:</h1>
         <table></table>
         <div class="page-link-container">
           <p>Page 3</p>
-          <a href="/src/view-stock-2.html" class="page-link">Previous Page</a>
-          <a href="/src/view-stock-4.html" class="page-link">Next Page</a>
+          <a href="/src/view-stock-2.php" class="page-link">Previous Page</a>
+          <a href="/src/view-stock-4.php" class="page-link">Next Page</a>
         </div>
       </div>
     </div>
