@@ -19,10 +19,44 @@
       ?>
       <div class="main-area">
         <h1>Current Stock:</h1>
-        <table></table>
+        <table>
+        <tr>
+          <th>Product Name</th>
+          <th>Product Code</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+        <?php
+include('connect.php');
+$page = 4;
+$productsPerPage = 8;
+$offset = ($page - 1) * $productsPerPage;
+      
+        $fetch = mysqli_query($conn, "SELECT * FROM products LIMIT $offset, $productsPerPage");
+        $count = mysqli_num_rows($fetch);
+        while ($rows = mysqli_fetch_array($fetch)) {
+?>
+        <tr>
+            <td>
+              <?= $rows[1]; ?>
+            </td>
+            <td>
+              <?= $rows[2]; ?>
+            </td>
+            <td>
+              <?= $rows[3]; ?>
+            </td>
+            <td>
+              <?= $rows[4]; ?>
+            </td>
+          </tr>
+<?php
+}
+?>
+        </table>
         <div class="page-link-container">
           <p>Page 4</p>
-          <a href="/src/view-stock-3.php" class="page-link">Previous Page</a>
+          <a href="view-stock-3.php" class="page-link">Previous Page</a>
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@
 $host= "localhost";
 $username="root";
 $password="";
-$db="fb_custom_db";
+$db="figure_beast_ims";
 
 $conn=mysqli_connect($host,$username,$password,$db);
 ?>
