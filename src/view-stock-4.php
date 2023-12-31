@@ -55,8 +55,8 @@ $offset = ($page - 1) * $productsPerPage;
 ?>
         </table>
         <div class="page-link-container">
-          <p>Page 4</p>
           <a href="view-stock-3.php" class="page-link">Previous Page</a>
+          <p>Page 4</p>
         </div>
       </div>
     </div>
