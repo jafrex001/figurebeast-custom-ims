@@ -29,7 +29,7 @@
 <?php
 include('connect.php');
 $page = 3;
-$productsPerPage = 8;
+$productsPerPage = 15;
 $offset = ($page - 1) * $productsPerPage;
 
         $fetch = mysqli_query($conn, "SELECT * FROM products LIMIT $offset, $productsPerPage");
