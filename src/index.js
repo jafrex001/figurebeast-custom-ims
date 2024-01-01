@@ -30,7 +30,4 @@ orderForm.addEventListener("submit", (event) => {
   }
 });
 
-editButton.addEventListener("DOMContentLoaded", function () {
-  console.log("Edit Button Working Correctly");
-});
 
