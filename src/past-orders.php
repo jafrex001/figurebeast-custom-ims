@@ -21,9 +21,7 @@
         <h1 class="past-orders-heading">All Orders:</h1>
         <ul class="past-orders-list" id="past-orders-list">
           <li>
-            {Order Summary} {Placed By} {Price} {Click to view more details}
-            {Edit Button} {Delete Button}
-          </li>
+            {Product Name} {Quantity} {Price} {Click to view more details} <img src="../img/edit-icon.svg" alt="edit-icon" id="edit-icon"> <img src="../img/delete-icon.svg" alt="delete-icon" id="delete-icon"> </li>
         </ul>
       </div>
     </div>

@@ -6,6 +6,8 @@ const productName = document.getElementById("product-name");
 const productQuantity = document.getElementById("product-quantity");
 const successMessage = document.getElementById("success-message");
 const failureMessage = document.getElementById("failure-message");
+const editButton = document.getElementById("edit-icon");
+const deleteButton = document.getElementById("delete-icon");
 
 formVisibilityButton.addEventListener("click", () => {
   orderForm.style.display = orderForm.style.display === "flex" ? "none" : "flex";
@@ -28,4 +30,7 @@ orderForm.addEventListener("submit", (event) => {
   }
 });
 
+editButton.addEventListener("DOMContentLoaded", function () {
+  console.log("Edit Button Working Correctly");
+});
 
