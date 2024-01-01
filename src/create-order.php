@@ -18,7 +18,7 @@
      include('header.php');
      ?>
       <div class="main-area">
-        <button class="create-order-button" id="create-order-button">Create New Order (Show/Hide)</button>
+        <button class="create-order-button" id="create-order-button" role="button">Create New Order (Show/Hide)</button>
         <form action="" id="order-form">
           <input type="text" placeholder="Product Code" id="product-name">
           <input type="number" placeholder="Quantity" id="product-quantity">

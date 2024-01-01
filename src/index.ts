@@ -48,11 +48,3 @@ orderForm.addEventListener("submit", (event) => {
     failureMessage.style.display = "flex";
   }
 });
-
-editButton.addEventListener("click", () => {
-  console.log("test");
-});
-
-deleteButton.addEventListener("click", () => {
-  console.log("test");
-});
