@@ -8,13 +8,12 @@ var successMessage = document.getElementById("success-message");
 var failureMessage = document.getElementById("failure-message");
 var editButton = document.getElementById("edit-icon");
 var deleteButton = document.getElementById("delete-icon");
-formVisibilityButton.addEventListener("click", function () {
-    orderForm.style.display =
-        orderForm.style.display === "flex" ? "none" : "flex";
+formVisibilityButton === null || formVisibilityButton === void 0 ? void 0 : formVisibilityButton.addEventListener("click", function () {
+    orderForm.style.display = orderForm.style.display === "flex" ? "none" : "flex";
     successMessage.style.display = "none";
     failureMessage.style.display = "none";
 });
-orderForm.addEventListener("submit", function (event) {
+orderForm === null || orderForm === void 0 ? void 0 : orderForm.addEventListener("submit", function (event) {
     event.preventDefault();
     if (productName.value.trim() !== "" && productQuantity.value.trim() !== "") {
         successMessage.style.display = "flex";
