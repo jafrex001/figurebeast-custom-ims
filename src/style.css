@@ -280,6 +280,14 @@ p {
 
   .past-orders-list li {
     margin: 1rem 0;
+  }
+
+  #product-name,
+  #product-quantity,
+  #form-submit-button,
+  .create-order-button {
+    width: 80vw;
+  }
 }
 
 @media only screen and (max-width: 489px) {
@@ -301,5 +309,12 @@ p {
   .past-orders-list li {
     margin: 1rem 0;
     height: 4rem;
+  }
+
+  #product-name,
+  #product-quantity,
+  #form-submit-button,
+  .create-order-button {
+    width: 90vw;
   }
 }
