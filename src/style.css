@@ -232,4 +232,20 @@ p {
 }
 
 @media only screen and (max-width: 1273px) {
+  .app-container,
+  .main-area,
+  .navigation {
+    height: 150vh;
+  }
+}
+
+@media only screen and (max-width: 873px) {
+  .app-container,
+  .main-area {
+    width: 150vw;
+  }
+
+  table {
+    width: 100vw;
+  }
 }
