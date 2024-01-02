@@ -280,4 +280,8 @@ p {
   .navigation {
     height: 230vh;
   }
+
+  .main-area h1 {
+    margin: 4rem 0;
+  }
 }
