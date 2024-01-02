@@ -30,7 +30,7 @@
   border: 1px solid rgba(143, 143, 143, 0.205);
 }
 
-.navigation img {
+.figure-beast-logo {
   width: 12rem;
 }
 
@@ -258,7 +258,26 @@ p {
   }
 
   .sidebar-icon {
-    display: block;
-    width: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+  }
+
+  .navigation ul li {
+    width: auto;
+    padding: 0;
+  }
+
+  .figure-beast-logo {
+    width: 6rem;
+  }
+}
+
+@media only screen and (max-width: 489px) {
+  .app-container,
+  .main-area,
+  .navigation {
+    height: 230vh;
   }
 }
