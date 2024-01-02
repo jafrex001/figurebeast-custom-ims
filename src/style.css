@@ -230,3 +230,6 @@ p {
   margin-top: 1rem;
   color: #ffffff;
 }
+
+@media only screen and (max-width: 1273px) {
+}
