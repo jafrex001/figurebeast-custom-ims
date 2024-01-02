@@ -272,6 +272,14 @@ p {
   .figure-beast-logo {
     width: 6rem;
   }
+
+  .past-orders-list {
+    width: 100vw;
+    color: white;
+  }
+
+  .past-orders-list li {
+    margin: 1rem 0;
 }
 
 @media only screen and (max-width: 489px) {
@@ -283,5 +291,15 @@ p {
 
   .main-area h1 {
     margin: 4rem 0;
+  }
+
+  .past-orders-list {
+    width: 100vw;
+    color: white;
+  }
+
+  .past-orders-list li {
+    margin: 1rem 0;
+    height: 4rem;
   }
 }
