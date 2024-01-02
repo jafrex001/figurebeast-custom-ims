@@ -231,6 +231,10 @@ p {
   color: #ffffff;
 }
 
+.sidebar-icon {
+  display: none;
+}
+
 @media only screen and (max-width: 1273px) {
   .app-container,
   .main-area,
@@ -247,5 +251,14 @@ p {
 
   table {
     width: 100vw;
+  }
+
+  .navigation li {
+    font-size: 0px;
+  }
+
+  .sidebar-icon {
+    display: block;
+    width: 0.5rem;
   }
 }
